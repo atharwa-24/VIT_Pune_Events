@@ -1,5 +1,5 @@
 # VIT PUNE EVENTS APP
-![GitHub](https://img.shields.io/github/license/atharwa-24/VIT_Pune_Events)
+![GitHub](https://img.shields.io/github/license/atharwa-24/VIT_Pune_Events?logo=Github)
 ### This app consists of events happen in VIT college
 This is a F.Y. software project.
 
