@@ -41,7 +41,8 @@ public class MainActivity extends AppCompatActivity {
             }
 
             private void logIn() {
-                String email, pass;
+                String email,
+                       pass;
                 email = etEmail.getText().toString();
                 pass = etPass.getText().toString();
                 if (email.equals("")) {
