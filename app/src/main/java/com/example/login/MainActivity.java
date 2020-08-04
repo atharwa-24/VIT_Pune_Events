@@ -17,7 +17,8 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
-    EditText etEmail, etPass;
+    EditText etEmail,
+             etPass;
     Button btnLogin;
     TextView tvReg;
     private FirebaseAuth mAuth;
