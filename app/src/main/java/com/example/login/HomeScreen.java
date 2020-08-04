@@ -11,7 +11,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 public class HomeScreen extends AppCompatActivity {
-ImageButton imageView1,imageView2,imageView3,imageView4,imageView5,imageView6;
+ImageButton imageView1,
+            imageView2, 
+            imageView3,
+            imageView4,
+            imageView5,
+            imageView6;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
