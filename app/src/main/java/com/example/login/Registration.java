@@ -15,7 +15,11 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class Registration extends AppCompatActivity {
-    EditText etEmail, etPass, etName, etConPass;
+    EditText etEmail, 
+             etPass,
+             etName, 
+             etConPass;
+    
     Button btnReg;
 
     private FirebaseAuth mAuth;
@@ -49,7 +53,10 @@ public class Registration extends AppCompatActivity {
     private void signUp() {
 
 
-        String name, email, pass, ConPass;
+        String name,
+               email,
+               pass,
+               ConPass;
 
         name = etName.getText().toString();
         email = etEmail.getText().toString();
