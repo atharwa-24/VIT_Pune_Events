@@ -1,6 +1,6 @@
 # VIT PUNE EVENTS APP
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/af93195f316b46c39db4f307ccbe4129)](https://app.codacy.com/manual/atharwakharkar/VIT_Pune_Events?utm_source=github.com&utm_medium=referral&utm_content=atharwa-24/VIT_Pune_Events&utm_campaign=Badge_Grade_Dashboard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/510b3139a60441dda33be9582ed1e5a0)](https://www.codacy.com/manual/atharwakharkar/VIT_Pune_Events?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=atharwa-24/VIT_Pune_Events&amp;utm_campaign=Badge_Grade)
 ![GitHub](https://img.shields.io/github/license/atharwa-24/VIT_Pune_Events?logo=Github)
 
 This app consists of events happen in VIT college
