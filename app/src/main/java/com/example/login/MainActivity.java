@@ -17,10 +17,10 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
-    EditText etEmail,
-             etPass;
-    Button btnLogin;
-    TextView tvReg;
+    private EditText etEmail,
+                     etPass;
+    private Button btnLogin;
+    private TextView tvReg;
     private FirebaseAuth mAuth;
 
     @Override
