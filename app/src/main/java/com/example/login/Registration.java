@@ -15,12 +15,12 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class Registration extends AppCompatActivity {
-    EditText etEmail, 
+    private EditText etEmail, 
              etPass,
              etName, 
              etConPass;
     
-    Button btnReg;
+    private Button btnReg;
 
     private FirebaseAuth mAuth;
 
