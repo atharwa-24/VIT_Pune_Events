@@ -3,11 +3,11 @@ os: linux
 dist: xenial
 jdk:
   -openjdk8
-
+env:
+  matrix:
+    - ANDROID_TARGET=android-29  ANDROID_ABI=armeabi-v7a
 script:
   -bundle exec thor build
-dependencies:
-  -com.android.tools.build:gradle:3.6.4
-  -com.google.gms:google-services:4.3.3
+  
 after_success:
   -bash <(curl -s https://codecov.io/bash)
