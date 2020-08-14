@@ -3,10 +3,9 @@ android:
   components:
     - build-tools-29.0.3
     - $ANDROID_TARGET
-    - sys-img-armeabi-v7a-$ANDROID_TARGET
-    - extra-android-support
-    - extra-android-m2repository
-    - extra-google-m2repository
+   dependencies:
+     - com.android.tools.build:gradle:3.6.4
+     - com.google.gms:google-services:4.3.3
 env:
   matrix:
     - ANDROID_TARGET=android-29  ANDROID_ABI=armeabi-v7a
