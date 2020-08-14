@@ -1,13 +1,11 @@
-"language": "java",
-  "os": [
-    "linux"
-  ],
-  "dist": "xenial",
-  "jdk": [
-    "openjdk8"
-  ],
-  "script": [
-    "bundle exec thor build"
-  ],
-  "after_success": [
-    "bash <(curl -s https://codecov.io/bash)"
+language: java
+os: linux
+dist: xenial
+jdk:
+  -openjdk8
+
+script:
+  -bundle exec thor build
+
+after_success:
+  -bash <(curl -s https://codecov.io/bash)
