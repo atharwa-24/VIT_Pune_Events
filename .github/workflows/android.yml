@@ -26,4 +26,9 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     
-
+    - name: Greet
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Thanks!!!'' first issue'
+        pr-message: 'Thanks! Each Contribution Counts'' first pr'
