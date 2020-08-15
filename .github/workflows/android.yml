@@ -7,7 +7,8 @@ on:
     branches: [ master ]
 
 jobs:
-  
+    
+    
     greeting:
       runs-on: ubuntu-latest
       steps:
@@ -34,3 +35,11 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
 
+    label:
+
+      runs-on: ubuntu-latest
+
+      steps:
+      - uses: actions/labeler@v2
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
