@@ -7,7 +7,12 @@ on:
     branches: [ master ]
 
 jobs:
-    
+    label:
+      runs-on: ubuntu-latest
+      steps:
+        - name: HashiCorp's Link Checker
+        - uses: hashicorp/gh-action-check-broken-links@v1
+
     
     greeting:
       runs-on: ubuntu-latest
