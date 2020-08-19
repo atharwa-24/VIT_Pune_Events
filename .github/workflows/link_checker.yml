@@ -1,2 +1,0 @@
-- name: HashiCorp's Link Checker
-  uses: hashicorp/gh-action-check-broken-links@v1
