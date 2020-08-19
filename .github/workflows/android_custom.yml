@@ -7,13 +7,13 @@ on:
     branches: [ master ]
 
 jobs:
-    label:
+    link_checker:
       runs-on: ubuntu-latest
       steps:
-        - name: HashiCorp's Link Checker
         - uses: hashicorp/gh-action-check-broken-links@v1
-
-    
+          with:
+            baseUrl: 'https://github.com/atharwa-24/VIT_Pune_Events'
+            files: 'README.md'
     greeting:
       runs-on: ubuntu-latest
       steps:
