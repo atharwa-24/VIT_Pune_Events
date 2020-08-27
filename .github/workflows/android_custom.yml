@@ -15,7 +15,7 @@ jobs:
           with:
             baseUrl: 'https://github.com/atharwa-24/VIT_Pune_Events'
             files: 'README.md'
-    greeting&contri:
+    greeting_contri:
       runs-on: ubuntu-latest
       steps:
       - uses: actions/first-interaction@v1
