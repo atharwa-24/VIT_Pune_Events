@@ -1,5 +1,6 @@
 name: Custom Android CI with Gradle
 
+
 on:
   push:
     branches: [ master ]
@@ -14,7 +15,7 @@ jobs:
           with:
             baseUrl: 'https://github.com/atharwa-24/VIT_Pune_Events'
             files: 'README.md'
-    greeting:
+    greeting&contri:
       runs-on: ubuntu-latest
       steps:
       - uses: actions/first-interaction@v1
@@ -22,6 +23,9 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: 'Thanks!!!'' first issue'
           pr-message: 'Thanks! Each Contribution Counts'' first pr'
+      - uses: akhilmhdh/contributors-readme-action@v1.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
     build:
       runs-on: ubuntu-latest
