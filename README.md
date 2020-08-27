@@ -15,3 +15,36 @@ This app works on `Android Platform` only.
 
 This app is built using `Android Studio`, `Java language`,
 `FireBase Authentication`.
+## Contributors :sparkles:
+<table>
+<tr>
+                <td align="center">
+                    <a href="https://github.com/atharwa-24">
+                        <img src="https://avatars0.githubusercontent.com/u/54115798?v=4" width="100;" alt="atharwa-24"/>
+                        <br />
+                        <sub><b>Atharwa_24</b></sub>
+                    </a>
+                </td>
+                <td align="center">
+                    <a href="https://github.com/ImgBotApp">
+                        <img src="https://avatars1.githubusercontent.com/u/31427850?v=4" width="100;" alt="ImgBotApp"/>
+                        <br />
+                        <sub><b>Imgbot</b></sub>
+                    </a>
+                </td>
+                <td align="center">
+                    <a href="https://github.com/restyled-commits">
+                        <img src="https://avatars0.githubusercontent.com/u/65077583?v=4" width="100;" alt="restyled-commits"/>
+                        <br />
+                        <sub><b>Restyled Commits</b></sub>
+                    </a>
+                </td>
+                <td align="center">
+                    <a href="https://github.com/codacy-badger">
+                        <img src="https://avatars3.githubusercontent.com/u/23704769?v=4" width="100;" alt="codacy-badger"/>
+                        <br />
+                        <sub><b>Codacy Badger</b></sub>
+                    </a>
+                </td></tr>
+</table>
+
