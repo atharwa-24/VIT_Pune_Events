@@ -48,3 +48,6 @@ This app is built using `Android Studio`, `Java language`,
                 </td></tr>
 </table>
 
+## License 
+
+This Project is License under [MIT](https://github.com/atharwa-24/VIT_Pune_Events/blob/develop/LICENSE).
