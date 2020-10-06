@@ -2,7 +2,6 @@ version: 2.1
 orbs:
   android: circleci/android@0.2.1
   gradle: circleci/gradle@2.2.0
-  microscanner: 'aquasecurity/microscanner@dev:0.1.1'
   
 jobs:
   build:
