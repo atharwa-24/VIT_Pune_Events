@@ -2,6 +2,13 @@ version: 2.1
 orbs:
   android: circleci/android@0.2.1
   gradle: circleci/gradle@2.2.0
+  orbs:
+  gradle: circleci/gradle@x.y
+version: 2.1
+workflows:
+  checkout-build-test:
+    jobs:
+      - gradle/test
 description: |
   Start building an Android project on CircleCI
 executor:
